@@ -1,0 +1,30 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+        android:width="20dp"
+        android:height="20dp"
+        android:viewportWidth="20.0"
+        android:viewportHeight="20.0">
+    <path
+        android:fillColor="#66CC99"
+        android:pathData="M0,10a10,10 0,1 1,20 0a10,10 0,1 1,-20 0"/>
+    <path
+        android:fillColor="#E8D2B2"
+        android:pathData="M5,10a5,5 0,1 1,10 0a5,5 0,1 1,-10 0"/>
+
+    <!--
+    A(rx ry x-axis-rotation large-arc-flag sweep-flag   x y)
+            (x轴旋转角度)  (0小弧,1大弧)   (0逆,1顺)
+     x=2rx,上半段
+
+
+    android:pathData="M0,10a10,10 0,1 1,20 0" a10,10 0,1 1,-20 0
+
+    circle:
+    <path
+        android:fillColor="#FF000000"
+        android:pathData="M12,12m-10,0a10,10 0,1 1,20 0a10,10 0,1 1,-20 0"/>
+    -->
+
+    <!--
+    A：ellipse 圆弧
+    -->
+</vector>

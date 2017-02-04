@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--得把选中的shape放在前面才行，不然没选中的效果-->
+    <item android:state_checked="true">
+        <shape
+            android:shape="oval">
+            <solid
+                android:color="@color/black_000000"/>
+            <stroke
+                android:width="5dp"
+                android:color="@color/blue_00acff"/>
+        </shape>
+    </item>
+    <item>
+        <shape
+            android:shape="oval">
+            <solid
+                android:color="@color/black_000000"/>
+        </shape>
+    </item>
+
+</selector>

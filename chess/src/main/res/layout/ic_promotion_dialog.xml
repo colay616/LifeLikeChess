@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:orientation="vertical"
+    android:padding="20dp"
+    android:background="@color/white_fcfcfc">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="升兵机会!请选择晋升的角色:"
+        android:textColor="#000000"
+        android:textSize="18sp"/>
+
+    <RadioGroup
+        android:id="@+id/promotion_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/promotion_rook"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:drawableBottom="@drawable/sel_media_item_checked"
+            android:background="@drawable/chess_bbishop"
+            android:button="@null"/>
+
+        <RadioButton
+            android:id="@+id/promotion_knight"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="5dp"
+            android:drawableBottom="@drawable/sel_media_item_checked"
+            android:background="@drawable/chess_bbishop"
+            android:button="@null"/>
+
+        <RadioButton
+            android:id="@+id/promotion_bishop"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="5dp"
+            android:drawableBottom="@drawable/sel_media_item_checked"
+            android:background="@drawable/chess_bbishop"
+            android:button="@null"/>
+
+        <RadioButton
+            android:id="@+id/promotion_queen"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:drawableBottom="@drawable/sel_media_item_checked"
+            android:background="@drawable/chess_bbishop"
+            android:button="@null"/>
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/promotion_ok"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="40dp"
+        android:padding="10dp"
+        android:background="@drawable/slt_common_btn"
+        android:text="确定"
+        android:textColor="@color/white_ffffff"
+        android:textSize="20sp"/>
+
+</LinearLayout>

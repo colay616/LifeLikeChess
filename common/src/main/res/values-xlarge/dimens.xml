@@ -1,0 +1,16 @@
+<resources>
+    <!--text size-->
+    <dimen name="font_size_12">16sp</dimen>
+    <dimen name="font_size_13">17sp</dimen>
+    <dimen name="font_size_14">18sp</dimen>
+    <dimen name="font_size_15">19sp</dimen>
+    <dimen name="font_size_16">20sp</dimen>
+    <dimen name="font_size_17">21sp</dimen>
+    <dimen name="font_size_18">22sp</dimen>
+    <dimen name="font_size_19">23sp</dimen>
+    <dimen name="font_size_20">24sp</dimen>
+    <dimen name="font_size_21">25sp</dimen>
+    <dimen name="font_size_22">26sp</dimen>
+
+    <dimen name="drawable_size">96dp</dimen>
+</resources>

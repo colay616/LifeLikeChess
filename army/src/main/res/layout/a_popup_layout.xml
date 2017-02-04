@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="#fafafa"
+              android:orientation="vertical">
+
+    <!---->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:minHeight="45dp"
+        android:background="@color/blue_4876ff">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:text="选择布局"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/aplat_gen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="15dp"
+            android:layout_toLeftOf="@+id/aplat_add"
+            android:text="随缘"/>
+
+        <TextView
+            android:id="@+id/aplat_add"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:text="添加"/>
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/aplat_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="#eaeaea"
+        android:dividerHeight="1dp"
+        android:scrollbars="none"/>
+</LinearLayout>

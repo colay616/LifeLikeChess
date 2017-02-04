@@ -1,0 +1,86 @@
+//import com.android.build.gradle.api.ApkVariant
+
+//if (isDebug.toBoolean()) {
+//    apply plugin: 'com.android.application'
+//} else {
+//    apply plugin: 'com.android.library'
+//}
+
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion 25
+    buildToolsVersion '25'
+
+    defaultConfig {
+        minSdkVersion 15
+        targetSdkVersion 25
+
+//        if (isDebug.toBoolean()) {
+//            buildConfigField 'boolean', 'ISAPP', 'true'
+//        } else {
+//            buildConfigField 'boolean', 'ISAPP', 'false'
+//        }
+        buildConfigField 'boolean', 'ISAPP', 'false'
+    }
+
+	sourceSets {
+        main {
+            java.srcDirs = ['src']
+            resources.srcDirs = ['src']
+            aidl.srcDirs = ['src']
+            renderscript.srcDirs = ['src']
+            res.srcDirs = ['res']
+            assets.srcDirs = ['assets']
+            jniLibs.srcDirs = ['libs']
+            manifest.srcFile 'AndroidManifest.xml'
+
+//            if (isDebug.toBoolean()) {
+//                manifest.srcFile 'src/main/debug/AndroidManifest.xml'
+//            } else {
+//                manifest.srcFile 'src/main/release/AndroidManifest.xml'
+//            }
+        }
+
+        // Move the tests to tests/java, tests/res, etc...
+//        instrumentTest.setRoot('tests')
+
+        // Move the build types to build-types/<type>
+        // For instance, build-types/debug/java, build-types/debug/AndroidManifest.xml, ...
+        // This moves them out of them default location under src/<type>/... which would
+        // conflict with src/ being used by the main source set.
+        // Adding new build types or product flavors should be accompanied
+        // by a similar customization.
+//        debug.setRoot('build-types/debug')
+//        release.setRoot('build-types/release')
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    //release时需要把hyphenatechatsdk的依赖注释掉，sdk已经被打成jar包放在libs底下
+    //compile project(':hyphenatechatsdk')
+    compile fileTree(include: '*.jar', dir: 'libs')
+    compile 'com.android.support:support-v4:25.0.1'
+    compile project(':common')
+    compile 'com.android.support:appcompat-v7:25.0.1'
+}
+
+//if (isDebug.toBoolean()) {
+//    android.applicationVariants.all { ApkVariant variant ->
+//        def buildTypeName = variant.buildType.name
+//        def task = project.tasks.create "jar${buildTypeName.capitalize()}", Jar
+//        task.archiveName = 'sharedDependency.jar'
+//        task.dependsOn variant.javaCompiler
+//        task.outputs.upToDateWhen { false }
+//        task.from variant.javaCompiler.destinationDir
+//        task.destinationDir = file(projectDir.absolutePath + "/outputs/jar")
+//        artifacts.add('archives', task)
+//    }
+//}

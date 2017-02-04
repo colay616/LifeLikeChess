@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:orientation="vertical">
+
+    <com.hyphenate.easeui.game.UserPanelView
+        android:id="@id/game_user_panel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:typeLayout="2"/>
+
+    <com.ue.army_chess.widget.FArmyView
+        android:id="@id/game_chessboard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/game_user_panel"
+        android:layout_marginTop="10dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@id/game_exit"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/slt_common_btn"
+            android:textColor="#ffffff"
+            android:text="退出"/>
+
+        <Button
+            android:id="@id/game_invite"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/slt_common_btn"
+            android:textColor="#ffffff"
+            android:text="约人"/>
+
+        <Button
+            android:id="@id/game_draw"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/slt_common_btn"
+            android:textColor="#ffffff"
+            android:text="和棋"/>
+
+        <Button
+            android:id="@id/game_surrender"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/slt_common_btn"
+            android:textColor="#ffffff"
+            android:text="认输"/>
+
+        <Button
+            android:id="@id/game_undo"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/slt_common_btn"
+            android:textColor="#ffffff"
+            android:text="悔棋"
+            android:visibility="gone"/>
+
+        <Button
+            android:id="@id/game_chat"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/slt_common_btn"
+            android:textColor="#ffffff"
+            android:text="聊天"/>
+    </LinearLayout>
+    <Button
+        android:id="@id/game_start_game"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@drawable/slt_common_btn"
+        android:textColor="@color/white_ffffff"
+        android:text="开始"/>
+</RelativeLayout>

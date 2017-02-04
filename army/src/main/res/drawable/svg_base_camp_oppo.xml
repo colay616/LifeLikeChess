@@ -1,0 +1,12 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+        android:width="20dp"
+        android:height="20dp"
+        android:viewportWidth="20.0"
+        android:viewportHeight="20.0">
+    <path
+        android:fillColor="#66CC99"
+        android:pathData="M5,10C5,10 10,20 15,10zM0,0L20,0L20,10L0,10z"/>
+    <!--
+    C(x1 y1 x2 y2 x y)，控制点（x1,y1）（ x2,y2），终点x,y
+    -->
+</vector>

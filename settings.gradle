@@ -1,0 +1,3 @@
+include ':app', ':cnchess', ':chess', ':reversi', ':gobang', ':common', ':moon', ':army'
+include ':EaseUI'
+project(':EaseUI').projectDir = new File('easeui3.2.1')

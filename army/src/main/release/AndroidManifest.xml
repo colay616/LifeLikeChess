@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.ue.army_chess">
+
+    <application
+        android:allowBackup="true"
+        android:supportsRtl="true">
+        <activity
+            android:name=".ui.FDoubleModeAty"
+            android:screenOrientation="portrait"
+            android:theme="@style/GameTheme">
+        </activity>
+        <activity
+            android:name=".ui.FOnlineModeAty"
+            android:screenOrientation="portrait"
+            android:theme="@style/GameTheme"/>
+        <activity
+            android:name=".ui.FInviteModeAty"
+            android:screenOrientation="portrait"
+            android:theme="@style/GameTheme"/>
+        <activity
+            android:name=".ui.AOnlineModeAty"
+            android:screenOrientation="portrait"
+            android:theme="@style/GameTheme">
+        </activity>
+        <activity
+            android:name=".ui.AInviteModeAty"
+            android:screenOrientation="portrait"
+            android:theme="@style/GameTheme">
+        </activity>
+        <activity
+            android:name=".ui.MDoubleModeAty"
+            android:screenOrientation="portrait"
+            android:theme="@style/GameTheme">
+        </activity>
+        <activity
+            android:name=".ui.MOnlineModeAty"
+            android:screenOrientation="portrait"
+            android:theme="@style/GameTheme">
+        </activity>
+        <activity
+            android:name=".ui.MInviteModeAty"
+            android:screenOrientation="portrait"
+            android:theme="@style/GameTheme">
+        </activity>
+        <activity
+            android:name=".ui.EditLayoutAty"
+            android:screenOrientation="portrait"
+            android:theme="@style/GameTheme"/>
+    </application>
+
+</manifest>

@@ -1,0 +1,11 @@
+<resources>
+    <!--dialog text size-->
+    <integer name="dialog_size_14">18</integer>
+    <integer name="dialog_size_15">19</integer>
+    <integer name="dialog_size_16">20</integer>
+    <integer name="dialog_size_17">21</integer>
+    <integer name="dialog_size_18">22</integer>
+    <integer name="dialog_size_19">23</integer>
+    <integer name="dialog_size_20">24</integer>
+
+</resources>

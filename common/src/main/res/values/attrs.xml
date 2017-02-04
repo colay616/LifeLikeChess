@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ActionBarView">
+        <attr name="backgroundRes" format="reference|color"/>
+        <attr name="centerTxt" format="string"/>
+        <attr name="centerTxtColor" format="reference|color"/>
+        <attr name="centerTxtSize" format="reference|dimension"/>
+        <attr name="leftTxt" format="string"/>
+        <attr name="rightTxt" format="string"/>
+        <attr name="sidesTxtColor" format="reference|color"/>
+        <attr name="sidesTxtSize" format="reference|dimension"/>
+        <attr name="leftImg" format="reference"/>
+        <attr name="rightImg" format="reference"/>
+    </declare-styleable>
+
+    <declare-styleable name="SwitchButton">
+        <attr name="switchOpenImage" format="reference"/>
+        <attr name="switchCloseImage" format="reference"/>
+        <attr name="switchStatus">
+            <enum name="open" value="0"/>
+            <enum name="close" value="1"/>
+        </attr>
+    </declare-styleable>
+</resources>

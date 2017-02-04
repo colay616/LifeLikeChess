@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="game_chessboard"/>
+    <item type="id" name="game_my_panel"/>
+    <item type="id" name="game_oppo_panel"/>
+    <item type="id" name="game_my_image"/>
+    <item type="id" name="game_oppo_image"/>
+    <item type="id" name="game_my_name"/>
+    <item type="id" name="game_oppo_name"/>
+
+    <item type="id" name="game_start_game"/>
+    <item type="id" name="game_exit"/>
+    <item type="id" name="game_level"/>
+    <item type="id" name="game_chat"/>
+    <item type="id" name="game_change"/>
+    <item type="id" name="game_surrender"/>
+    <item type="id" name="game_draw"/>
+    <item type="id" name="game_undo"/>
+
+    <item type="id" name="game_user_panel"/>
+    <item type="id" name="game_menu"/>
+    <item type="id" name="game_msg"/>
+    <item type="id" name="game_new"/>
+    <item type="id" name="game_invite"/>
+</resources>

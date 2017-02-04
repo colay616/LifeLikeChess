@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.ue.chess">
+
+    <application
+        android:allowBackup="true"
+        android:supportsRtl="true">
+        <activity android:name=".ui.MainAty"/>
+        <activity android:name=".ui.DoubleModeAty"
+                  android:theme="@style/GameTheme"
+                  android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".ui.OnlineModeAty"
+                  android:theme="@style/GameTheme"
+                  android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".ui.InviteModeAty"
+                  android:theme="@style/GameTheme"
+                  android:screenOrientation="portrait">
+        </activity>
+    </application>
+
+</manifest>

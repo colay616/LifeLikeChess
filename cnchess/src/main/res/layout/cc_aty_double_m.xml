@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.hyphenate.easeui.game.UserPanelView
+        android:id="@id/game_user_panel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <com.ue.cnchess.widget.CNChessView
+        android:id="@id/game_chessboard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/game_user_panel"
+        android:layout_marginTop="10dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@id/game_exit"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/slt_common_btn"
+            android:text="退出"
+            android:textColor="#ffffff"
+            android:textSize="20sp"/>
+
+        <Button
+            android:id="@id/game_new"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/slt_common_btn"
+            android:text="新局"
+            android:textColor="#ffffff"
+            android:textSize="20sp"/>
+
+        <Button
+            android:id="@id/game_undo"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/slt_common_btn"
+            android:text="悔棋"
+            android:textColor="#ffffff"
+            android:textSize="20sp"/>
+
+    </LinearLayout>
+</RelativeLayout>

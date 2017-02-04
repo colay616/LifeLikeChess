@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menu_main_update"
+        android:title="更新"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/menu_main_msg"
+        android:title="消息"
+        android:icon="@drawable/slt_msg_tip"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/menu_main_about"
+        android:title="关于"
+        android:icon="@drawable/slt_about"
+        app:showAsAction="always"/>
+</menu>

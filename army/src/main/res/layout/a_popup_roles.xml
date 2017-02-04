@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:padding="10dp"
+    android:background="@color/black_313131">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="标记该棋子为："
+        android:textColor="#ffffff"
+        android:textSize="16sp"/>
+    <ListView
+        android:id="@+id/apsin_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:divider="#ffffff"
+        android:dividerHeight="1dp"
+        android:scrollbars="none"/>
+</LinearLayout>

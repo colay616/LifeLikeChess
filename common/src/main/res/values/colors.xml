@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--black-->
+    <color name="black_000000">#000000</color>
+    <color name="black_313131">#313131</color>
+    <color name="black_363636">#363636</color>
+    <color name="black_b0000000">#b0000000</color>
+    <color name="black_ff000000">#ff000000</color>
+    <color name="black_000">#000</color>
+    <color name="black_2d2f31">#2d2f31</color>
+    <color name="black_161718">#161718</color>
+    <color name="black_5e5e5e">#5e5e5e</color>
+    <color name="black_cc22292c">#cc22292c</color>
+    <color name="black_cc20272a">#cc20272a</color>
+    <color name="black_9f111111">#9f111111</color>
+
+    <!--white-->
+    <color name="white_ffffff">#ffffff</color>
+    <color name="transparent_ffffffff">#ffffffff</color>
+    <color name="white_fcfcfc">#fcfcfc</color>
+    <color name="white_f6ebe6">#F6EBE6</color>
+    <color name="white_f7f8f8">#f7f8f8</color>
+    <color name="white_fff">#fff</color>
+    <color name="white_1affffff">#1affffff</color>
+
+    <!--blue-->
+    <color name="blue_59c6ff">#59c6ff</color>
+    <color name="blue_89d7ff">#89d7ff</color>
+    <color name="blue_00acff">#00acff</color>
+    <color name="blue_46678d">#46678d</color>
+    <color name="blue_4ebcd3">#4ebcd3</color>
+    <color name="blue_2ea7e0">#2ea7e0</color>
+
+    <!--gray-->
+    <color name="gray_666667">#666667</color>
+    <color name="gray_80000000">#80000000</color>
+    <color name="gray_bababa">#bababa</color>
+    <color name="gray_888888">#888888</color>
+    <color name="gray_dddddd">#dddddd</color>
+    <color name="gray_dcdcdc">#dcdcdc</color>
+    <color name="gray_d9d9d9">#d9d9d9</color>
+    <color name="gray_aaa">#aaa</color>
+    <color name="gray_d4d4d4">#d4d4d4</color>
+    <color name="gray_b5b5b6">#b5b5b6</color>
+    <color name="gray_c0c0c0">#c0c0c0</color>
+    <color name="gray_cccccc">#cccccc</color>
+
+    <!--green-->
+    <color name="green_b6da53">#b6da53</color>
+    <color name="green_68C270">#68C270</color>
+    <color name="green_6fcd78">#6fcd78</color>
+    <color name="green_ff99cc00">#ff99cc00</color>
+    <color name="green_67cdb7">#67cdb7</color>
+    <color name="green_66cc99">#66cc99</color>
+    <color name="green_339933">#339933</color>
+
+    <!--yellow-->
+    <color name="yellow_ffa500">#ffa500</color>
+    <color name="yellow_ffffbb33">#ffffbb33</color>
+    <color name="yellow_f4b400">#f4b400</color>
+    <color name="yellow_ccfd8225">#ccfd8225</color>
+
+    <!--blue-->
+    <color name="blue_1e90ff">#1e90ff</color>
+    <color name="blue_0066ff">#0066ff</color>
+    <color name="blue_2dafa3">#2dafa3</color>
+    <color name="blue_ff00ddff">#ff00ddff</color>
+    <color name="blue_3f51b5">#3f51b5</color>
+    <color name="blue_303f9f">#303f9f</color>
+    <color name="blue_4876ff">#4876ff</color>
+    <color name="blue_3a5fcd">#3a5fcd</color>
+    <color name="blue_427fed">#427fed</color>
+    <color name="blue_74b5f7">#74b5f7</color>
+
+    <!--red-->
+    <color name="red_fe9393">#fe9393</color>
+    <color name="red_ff4081">#ff4081</color>
+    <color name="red_ffff4444">#ffff4444</color>
+    <color name="red_db414a">#db414a</color>
+    <color name="red_cd0b17">#cd0b17</color>
+    <color name="red_d33f3f">#d33f3f</color>
+    <color name="red_da5a4d">#DA5A4D</color>
+
+    <!--others-->
+    <color name="purple_9b73e6">#9b73e6</color>
+    <color name="gray_eaeaea">#eaeaea</color>
+</resources>
