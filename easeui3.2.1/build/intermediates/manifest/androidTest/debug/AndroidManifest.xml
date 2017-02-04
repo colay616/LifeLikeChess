@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.hyphenate.easeui.test" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="25" />
+
+    <instrumentation
+        android:name="android.test.InstrumentationTestRunner"
+        android:functionalTest="false"
+        android:handleProfiling="false"
+        android:label="Tests for com.hyphenate.easeui.test"
+        android:targetPackage="com.hyphenate.easeui.test" />
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+    <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS" />
+    <uses-permission android:name="android.permission.BROADCAST_STICKY" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS" /> <!-- GCM required, remember replace "com.hyphenate.easeui" to your own package -->
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+
+    <permission
+        android:name="com.hyphenate.easeui.permission.C2D_MESSAGE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="com.hyphenate.easeui.permission.C2D_MESSAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:name="com.hyphenate.easeui.DemoApplication"
+        android:allowBackup="true"
+        android:supportsRtl="true" >
+        <uses-library android:name="android.test.runner" />
+        <!-- 登陆 -->
+        <activity
+            android:name="com.hyphenate.easeui.ui.LoginActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/NormalTheme"
+            android:windowSoftInputMode="adjustResize|stateVisible" /> <!-- 聊天页面 -->
+        <activity
+            android:name="com.hyphenate.easeui.ui.ChatActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/ToolbarTheme"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="com.hyphenate.easeui.ui.GroupDetailsActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/ToolbarTheme" />
+        <activity
+            android:name="com.hyphenate.easeui.ui.PickAtUserActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/NormalTheme" />
+        <activity
+            android:name="com.hyphenate.easeui.ui.ConversationsActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/ToolbarTheme" />
+        <activity
+            android:name="com.hyphenate.easeui.ui.UserProfileActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/NormalTheme" /> <!-- 设置环信应用的appkey -->
+        <meta-data
+            android:name="EASEMOB_APPKEY"
+            android:value="dgb666#lifelikechess" /> <!-- 声明sdk所需的service -->
+        <service
+            android:name="com.hyphenate.chat.EMChatService"
+            android:exported="true" />
+        <service
+            android:name="com.hyphenate.chat.EMJobService"
+            android:exported="true"
+            android:permission="android.permission.BIND_JOB_SERVICE" /> <!-- 声明sdk所需的receiver -->
+        <receiver android:name="com.hyphenate.chat.EMMonitorReceiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_REMOVED" />
+
+                <data android:scheme="package" />
+            </intent-filter>
+            <!-- 可选filter -->
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.BOOT_COMPLETED" /> -->
+            <!-- <action android:name="android.intent.action.USER_PRESENT" /> -->
+            <!-- </intent-filter> -->
+        </receiver>
+
+        <activity
+            android:name="com.ue.common.imagepicker.ui.activity.ImageCropActivity"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.ue.common.imagepicker.ui.activity.ImagePreviewActivity"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.ue.common.imagepicker.ui.activity.ImagesGridActivity"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+
+        <provider
+            android:name="com.ue.common.xsharedpref.SharedPrefProvider"
+            android:authorities="com.ue.chess_life.sp"
+            android:process=":xSharedPref" />
+    </application>
+
+</manifest>

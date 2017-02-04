@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <View
+        android:id="@+id/game_chat_rest"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+    <LinearLayout
+        android:id="@+id/game_chat_panel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#eaeaea"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp">
+
+        <EditText
+            android:id="@+id/game_chat_input"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="5dp"/>
+
+        <ImageView
+            android:id="@+id/game_chat_emoji"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/ease_chatting_biaoqing_btn_normal"/>
+
+        <ImageButton
+            android:id="@+id/game_chat_send"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/selector_send_btn"
+            android:text="发送"/>
+    </LinearLayout>
+    <com.hyphenate.easeui.widget.emojicon.EaseEmojiconMenu
+        android:id="@+id/game_chat_emoji_panel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"/>
+
+</LinearLayout>

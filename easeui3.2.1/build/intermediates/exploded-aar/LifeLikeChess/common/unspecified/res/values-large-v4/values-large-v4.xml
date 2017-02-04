@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="drawable_size">72dp</dimen>
+    <dimen name="font_size_12">14sp</dimen>
+    <dimen name="font_size_13">15sp</dimen>
+    <dimen name="font_size_14">16sp</dimen>
+    <dimen name="font_size_15">17sp</dimen>
+    <dimen name="font_size_16">18sp</dimen>
+    <dimen name="font_size_17">19sp</dimen>
+    <dimen name="font_size_18">20sp</dimen>
+    <dimen name="font_size_19">21sp</dimen>
+    <dimen name="font_size_20">22sp</dimen>
+    <dimen name="font_size_21">23sp</dimen>
+    <dimen name="font_size_22">24sp</dimen>
+    <integer name="dialog_size_14">16</integer>
+    <integer name="dialog_size_15">17</integer>
+    <integer name="dialog_size_16">18</integer>
+    <integer name="dialog_size_17">19</integer>
+    <integer name="dialog_size_18">20</integer>
+    <integer name="dialog_size_19">21</integer>
+    <integer name="dialog_size_20">22</integer>
+</resources>

@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "E:\\workspace_studio\\LifeLikeChess\\easeui3.2.1\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi-v4\\ease_close_icon.png",
+        "source": "E:\\workspace_studio\\LifeLikeChess\\easeui3.2.1\\build\\intermediates\\exploded-aar\\LifeLikeChess\\common\\unspecified\\res\\mipmap-hdpi-v4\\ease_close_icon.png"
+    },
+    {
+        "merged": "E:\\workspace_studio\\LifeLikeChess\\easeui3.2.1\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi-v4\\ic_left_bubble.9.png",
+        "source": "E:\\workspace_studio\\LifeLikeChess\\easeui3.2.1\\build\\intermediates\\exploded-aar\\LifeLikeChess\\common\\unspecified\\res\\mipmap-hdpi-v4\\ic_left_bubble.9.png"
+    },
+    {
+        "merged": "E:\\workspace_studio\\LifeLikeChess\\easeui3.2.1\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi-v4\\ease_open_icon.png",
+        "source": "E:\\workspace_studio\\LifeLikeChess\\easeui3.2.1\\build\\intermediates\\exploded-aar\\LifeLikeChess\\common\\unspecified\\res\\mipmap-hdpi-v4\\ease_open_icon.png"
+    },
+    {
+        "merged": "E:\\workspace_studio\\LifeLikeChess\\easeui3.2.1\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi-v4\\ease_chatto_bg_focused.9.png",
+        "source": "E:\\workspace_studio\\LifeLikeChess\\easeui3.2.1\\build\\intermediates\\exploded-aar\\LifeLikeChess\\common\\unspecified\\res\\mipmap-hdpi-v4\\ease_chatto_bg_focused.9.png"
+    },
+    {
+        "merged": "E:\\workspace_studio\\LifeLikeChess\\easeui3.2.1\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi-v4\\search_clear_normal.png",
+        "source": "E:\\workspace_studio\\LifeLikeChess\\easeui3.2.1\\build\\intermediates\\exploded-aar\\LifeLikeChess\\common\\unspecified\\res\\mipmap-hdpi-v4\\search_clear_normal.png"
+    },
+    {
+        "merged": "E:\\workspace_studio\\LifeLikeChess\\easeui3.2.1\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi-v4\\search_clear_pressed.png",
+        "source": "E:\\workspace_studio\\LifeLikeChess\\easeui3.2.1\\build\\intermediates\\exploded-aar\\LifeLikeChess\\common\\unspecified\\res\\mipmap-hdpi-v4\\search_clear_pressed.png"
+    },
+    {
+        "merged": "E:\\workspace_studio\\LifeLikeChess\\easeui3.2.1\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi-v4\\ease_chatfrom_bg_focused.9.png",
+        "source": "E:\\workspace_studio\\LifeLikeChess\\easeui3.2.1\\build\\intermediates\\exploded-aar\\LifeLikeChess\\common\\unspecified\\res\\mipmap-hdpi-v4\\ease_chatfrom_bg_focused.9.png"
+    },
+    {
+        "merged": "E:\\workspace_studio\\LifeLikeChess\\easeui3.2.1\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi-v4\\ic_right_bubble.9.png",
+        "source": "E:\\workspace_studio\\LifeLikeChess\\easeui3.2.1\\build\\intermediates\\exploded-aar\\LifeLikeChess\\common\\unspecified\\res\\mipmap-hdpi-v4\\ic_right_bubble.9.png"
+    }
+]

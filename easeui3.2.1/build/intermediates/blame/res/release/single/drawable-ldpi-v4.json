@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "E:\\workspace_studio\\LifeLikeChess\\easeui3.2.1\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\svg_arrow_right.png",
+        "source": "E:\\workspace_studio\\LifeLikeChess\\easeui3.2.1\\build\\generated\\res\\pngs\\release\\drawable-ldpi\\svg_arrow_right.png"
+    },
+    {
+        "merged": "E:\\workspace_studio\\LifeLikeChess\\easeui3.2.1\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\svg_visible.png",
+        "source": "E:\\workspace_studio\\LifeLikeChess\\easeui3.2.1\\build\\intermediates\\exploded-aar\\LifeLikeChess\\common\\unspecified\\res\\drawable-ldpi-v4\\svg_visible.png"
+    },
+    {
+        "merged": "E:\\workspace_studio\\LifeLikeChess\\easeui3.2.1\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\svg_chevron_back_normal.png",
+        "source": "E:\\workspace_studio\\LifeLikeChess\\easeui3.2.1\\build\\intermediates\\exploded-aar\\LifeLikeChess\\common\\unspecified\\res\\drawable-ldpi-v4\\svg_chevron_back_normal.png"
+    },
+    {
+        "merged": "E:\\workspace_studio\\LifeLikeChess\\easeui3.2.1\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\svg_send_pressed.png",
+        "source": "E:\\workspace_studio\\LifeLikeChess\\easeui3.2.1\\build\\generated\\res\\pngs\\release\\drawable-ldpi\\svg_send_pressed.png"
+    },
+    {
+        "merged": "E:\\workspace_studio\\LifeLikeChess\\easeui3.2.1\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\svg_chevron_back_pressed.png",
+        "source": "E:\\workspace_studio\\LifeLikeChess\\easeui3.2.1\\build\\intermediates\\exploded-aar\\LifeLikeChess\\common\\unspecified\\res\\drawable-ldpi-v4\\svg_chevron_back_pressed.png"
+    },
+    {
+        "merged": "E:\\workspace_studio\\LifeLikeChess\\easeui3.2.1\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\svg_invisible.png",
+        "source": "E:\\workspace_studio\\LifeLikeChess\\easeui3.2.1\\build\\intermediates\\exploded-aar\\LifeLikeChess\\common\\unspecified\\res\\drawable-ldpi-v4\\svg_invisible.png"
+    },
+    {
+        "merged": "E:\\workspace_studio\\LifeLikeChess\\easeui3.2.1\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\svg_balloon_tip.png",
+        "source": "E:\\workspace_studio\\LifeLikeChess\\easeui3.2.1\\build\\generated\\res\\pngs\\release\\drawable-ldpi\\svg_balloon_tip.png"
+    },
+    {
+        "merged": "E:\\workspace_studio\\LifeLikeChess\\easeui3.2.1\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\svg_send_normal.png",
+        "source": "E:\\workspace_studio\\LifeLikeChess\\easeui3.2.1\\build\\generated\\res\\pngs\\release\\drawable-ldpi\\svg_send_normal.png"
+    }
+]

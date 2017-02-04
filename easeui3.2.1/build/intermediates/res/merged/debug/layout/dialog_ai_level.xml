@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="#fafafa"
+              android:padding="10dp"
+              android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="选择先后手"
+        android:textColor="#000000"
+        android:textSize="18sp"/>
+
+
+    <RadioGroup
+        android:id="@+id/group_who_first"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/game_radio_button_black"
+            android:button="@null"
+            android:gravity="center"/>
+
+        <RadioButton
+            android:id="@+id/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/game_radio_button_white"
+            android:button="@null"
+            android:gravity="center"/>
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="选择对手实力"
+        android:textColor="#000000"
+        android:textSize="18sp"/>
+
+    <com.ue.common.widget.FlowRadioGroup
+        android:id="@+id/ai_level_panel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/ok"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/slt_common_btn"
+            android:padding="10dp"
+            android:text="确定"
+            android:textColor="@color/white_ffffff"
+            android:textSize="20sp"/>
+
+        <Button
+            android:id="@+id/cancel"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/slt_common_btn"
+            android:padding="10dp"
+            android:text="取消"
+            android:textColor="@color/white_ffffff"
+            android:textSize="20sp"/>
+    </LinearLayout>
+
+</LinearLayout>

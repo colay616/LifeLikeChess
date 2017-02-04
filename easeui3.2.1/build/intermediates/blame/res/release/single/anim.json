@@ -1,0 +1,190 @@
+[
+    {
+        "merged": "E:\\workspace_studio\\LifeLikeChess\\easeui3.2.1\\build\\intermediates\\res\\merged\\release\\anim\\bottom_out.xml",
+        "source": "E:\\workspace_studio\\LifeLikeChess\\easeui3.2.1\\build\\intermediates\\exploded-aar\\LifeLikeChess\\common\\unspecified\\res\\anim\\bottom_out.xml"
+    },
+    {
+        "merged": "E:\\workspace_studio\\LifeLikeChess\\easeui3.2.1\\build\\intermediates\\res\\merged\\release\\anim\\abc_fade_out.xml",
+        "source": "E:\\workspace_studio\\LifeLikeChess\\easeui3.2.1\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\anim\\abc_fade_out.xml"
+    },
+    {
+        "merged": "E:\\workspace_studio\\LifeLikeChess\\easeui3.2.1\\build\\intermediates\\res\\merged\\release\\anim\\design_bottom_sheet_slide_in.xml",
+        "source": "E:\\workspace_studio\\LifeLikeChess\\easeui3.2.1\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.0.1\\res\\anim\\design_bottom_sheet_slide_in.xml"
+    },
+    {
+        "merged": "E:\\workspace_studio\\LifeLikeChess\\easeui3.2.1\\build\\intermediates\\res\\merged\\release\\anim\\push_top_in2.xml",
+        "source": "E:\\workspace_studio\\LifeLikeChess\\easeui3.2.1\\build\\intermediates\\exploded-aar\\LifeLikeChess\\common\\unspecified\\res\\anim\\push_top_in2.xml"
+    },
+    {
+        "merged": "E:\\workspace_studio\\LifeLikeChess\\easeui3.2.1\\build\\intermediates\\res\\merged\\release\\anim\\push_bottom_out.xml",
+        "source": "E:\\workspace_studio\\LifeLikeChess\\easeui3.2.1\\build\\intermediates\\exploded-aar\\LifeLikeChess\\common\\unspecified\\res\\anim\\push_bottom_out.xml"
+    },
+    {
+        "merged": "E:\\workspace_studio\\LifeLikeChess\\easeui3.2.1\\build\\intermediates\\res\\merged\\release\\anim\\bottom_in.xml",
+        "source": "E:\\workspace_studio\\LifeLikeChess\\easeui3.2.1\\build\\intermediates\\exploded-aar\\LifeLikeChess\\common\\unspecified\\res\\anim\\bottom_in.xml"
+    },
+    {
+        "merged": "E:\\workspace_studio\\LifeLikeChess\\easeui3.2.1\\build\\intermediates\\res\\merged\\release\\anim\\design_bottom_sheet_slide_out.xml",
+        "source": "E:\\workspace_studio\\LifeLikeChess\\easeui3.2.1\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.0.1\\res\\anim\\design_bottom_sheet_slide_out.xml"
+    },
+    {
+        "merged": "E:\\workspace_studio\\LifeLikeChess\\easeui3.2.1\\build\\intermediates\\res\\merged\\release\\anim\\push_top_out.xml",
+        "source": "E:\\workspace_studio\\LifeLikeChess\\easeui3.2.1\\build\\intermediates\\exploded-aar\\LifeLikeChess\\common\\unspecified\\res\\anim\\push_top_out.xml"
+    },
+    {
+        "merged": "E:\\workspace_studio\\LifeLikeChess\\easeui3.2.1\\build\\intermediates\\res\\merged\\release\\anim\\abc_grow_fade_in_from_bottom.xml",
+        "source": "E:\\workspace_studio\\LifeLikeChess\\easeui3.2.1\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "E:\\workspace_studio\\LifeLikeChess\\easeui3.2.1\\build\\intermediates\\res\\merged\\release\\anim\\show_from_bottom.xml",
+        "source": "E:\\workspace_studio\\LifeLikeChess\\easeui3.2.1\\build\\intermediates\\exploded-aar\\LifeLikeChess\\common\\unspecified\\res\\anim\\show_from_bottom.xml"
+    },
+    {
+        "merged": "E:\\workspace_studio\\LifeLikeChess\\easeui3.2.1\\build\\intermediates\\res\\merged\\release\\anim\\abc_shrink_fade_out_from_bottom.xml",
+        "source": "E:\\workspace_studio\\LifeLikeChess\\easeui3.2.1\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "E:\\workspace_studio\\LifeLikeChess\\easeui3.2.1\\build\\intermediates\\res\\merged\\release\\anim\\abc_popup_exit.xml",
+        "source": "E:\\workspace_studio\\LifeLikeChess\\easeui3.2.1\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\anim\\abc_popup_exit.xml"
+    },
+    {
+        "merged": "E:\\workspace_studio\\LifeLikeChess\\easeui3.2.1\\build\\intermediates\\res\\merged\\release\\anim\\slide_out_to_right.xml",
+        "source": "E:\\workspace_studio\\LifeLikeChess\\easeui3.2.1\\build\\intermediates\\exploded-aar\\LifeLikeChess\\common\\unspecified\\res\\anim\\slide_out_to_right.xml"
+    },
+    {
+        "merged": "E:\\workspace_studio\\LifeLikeChess\\easeui3.2.1\\build\\intermediates\\res\\merged\\release\\anim\\push_bottom_in.xml",
+        "source": "E:\\workspace_studio\\LifeLikeChess\\easeui3.2.1\\build\\intermediates\\exploded-aar\\LifeLikeChess\\common\\unspecified\\res\\anim\\push_bottom_in.xml"
+    },
+    {
+        "merged": "E:\\workspace_studio\\LifeLikeChess\\easeui3.2.1\\build\\intermediates\\res\\merged\\release\\anim\\abc_slide_in_bottom.xml",
+        "source": "E:\\workspace_studio\\LifeLikeChess\\easeui3.2.1\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\anim\\abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "E:\\workspace_studio\\LifeLikeChess\\easeui3.2.1\\build\\intermediates\\res\\merged\\release\\anim\\slide_in_from_right.xml",
+        "source": "E:\\workspace_studio\\LifeLikeChess\\easeui3.2.1\\build\\intermediates\\exploded-aar\\LifeLikeChess\\common\\unspecified\\res\\anim\\slide_in_from_right.xml"
+    },
+    {
+        "merged": "E:\\workspace_studio\\LifeLikeChess\\easeui3.2.1\\build\\intermediates\\res\\merged\\release\\anim\\dialog_normal_enter.xml",
+        "source": "E:\\workspace_studio\\LifeLikeChess\\easeui3.2.1\\build\\intermediates\\exploded-aar\\LifeLikeChess\\common\\unspecified\\res\\anim\\dialog_normal_enter.xml"
+    },
+    {
+        "merged": "E:\\workspace_studio\\LifeLikeChess\\easeui3.2.1\\build\\intermediates\\res\\merged\\release\\anim\\scale_in.xml",
+        "source": "E:\\workspace_studio\\LifeLikeChess\\easeui3.2.1\\build\\intermediates\\exploded-aar\\LifeLikeChess\\common\\unspecified\\res\\anim\\scale_in.xml"
+    },
+    {
+        "merged": "E:\\workspace_studio\\LifeLikeChess\\easeui3.2.1\\build\\intermediates\\res\\merged\\release\\anim\\abc_slide_out_bottom.xml",
+        "source": "E:\\workspace_studio\\LifeLikeChess\\easeui3.2.1\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\anim\\abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "E:\\workspace_studio\\LifeLikeChess\\easeui3.2.1\\build\\intermediates\\res\\merged\\release\\anim\\hold.xml",
+        "source": "E:\\workspace_studio\\LifeLikeChess\\easeui3.2.1\\build\\intermediates\\exploded-aar\\LifeLikeChess\\common\\unspecified\\res\\anim\\hold.xml"
+    },
+    {
+        "merged": "E:\\workspace_studio\\LifeLikeChess\\easeui3.2.1\\build\\intermediates\\res\\merged\\release\\anim\\slide_out_to_left.xml",
+        "source": "E:\\workspace_studio\\LifeLikeChess\\easeui3.2.1\\build\\intermediates\\exploded-aar\\LifeLikeChess\\common\\unspecified\\res\\anim\\slide_out_to_left.xml"
+    },
+    {
+        "merged": "E:\\workspace_studio\\LifeLikeChess\\easeui3.2.1\\build\\intermediates\\res\\merged\\release\\anim\\hide2bottom.xml",
+        "source": "E:\\workspace_studio\\LifeLikeChess\\easeui3.2.1\\build\\intermediates\\exploded-aar\\LifeLikeChess\\common\\unspecified\\res\\anim\\hide2bottom.xml"
+    },
+    {
+        "merged": "E:\\workspace_studio\\LifeLikeChess\\easeui3.2.1\\build\\intermediates\\res\\merged\\release\\anim\\slide_in_from_left.xml",
+        "source": "E:\\workspace_studio\\LifeLikeChess\\easeui3.2.1\\build\\intermediates\\exploded-aar\\LifeLikeChess\\common\\unspecified\\res\\anim\\slide_in_from_left.xml"
+    },
+    {
+        "merged": "E:\\workspace_studio\\LifeLikeChess\\easeui3.2.1\\build\\intermediates\\res\\merged\\release\\anim\\abc_popup_enter.xml",
+        "source": "E:\\workspace_studio\\LifeLikeChess\\easeui3.2.1\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\anim\\abc_popup_enter.xml"
+    },
+    {
+        "merged": "E:\\workspace_studio\\LifeLikeChess\\easeui3.2.1\\build\\intermediates\\res\\merged\\release\\anim\\abc_slide_out_top.xml",
+        "source": "E:\\workspace_studio\\LifeLikeChess\\easeui3.2.1\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\anim\\abc_slide_out_top.xml"
+    },
+    {
+        "merged": "E:\\workspace_studio\\LifeLikeChess\\easeui3.2.1\\build\\intermediates\\res\\merged\\release\\anim\\head_out.xml",
+        "source": "E:\\workspace_studio\\LifeLikeChess\\easeui3.2.1\\build\\intermediates\\exploded-aar\\LifeLikeChess\\common\\unspecified\\res\\anim\\head_out.xml"
+    },
+    {
+        "merged": "E:\\workspace_studio\\LifeLikeChess\\easeui3.2.1\\build\\intermediates\\res\\merged\\release\\anim\\fade_out.xml",
+        "source": "E:\\workspace_studio\\LifeLikeChess\\easeui3.2.1\\build\\intermediates\\exploded-aar\\LifeLikeChess\\common\\unspecified\\res\\anim\\fade_out.xml"
+    },
+    {
+        "merged": "E:\\workspace_studio\\LifeLikeChess\\easeui3.2.1\\build\\intermediates\\res\\merged\\release\\anim\\fade_in.xml",
+        "source": "E:\\workspace_studio\\LifeLikeChess\\easeui3.2.1\\build\\intermediates\\exploded-aar\\LifeLikeChess\\common\\unspecified\\res\\anim\\fade_in.xml"
+    },
+    {
+        "merged": "E:\\workspace_studio\\LifeLikeChess\\easeui3.2.1\\build\\intermediates\\res\\merged\\release\\anim\\scale_out.xml",
+        "source": "E:\\workspace_studio\\LifeLikeChess\\easeui3.2.1\\build\\intermediates\\exploded-aar\\LifeLikeChess\\common\\unspecified\\res\\anim\\scale_out.xml"
+    },
+    {
+        "merged": "E:\\workspace_studio\\LifeLikeChess\\easeui3.2.1\\build\\intermediates\\res\\merged\\release\\anim\\design_snackbar_out.xml",
+        "source": "E:\\workspace_studio\\LifeLikeChess\\easeui3.2.1\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.0.1\\res\\anim\\design_snackbar_out.xml"
+    },
+    {
+        "merged": "E:\\workspace_studio\\LifeLikeChess\\easeui3.2.1\\build\\intermediates\\res\\merged\\release\\anim\\dialog_bottom_exit.xml",
+        "source": "E:\\workspace_studio\\LifeLikeChess\\easeui3.2.1\\build\\intermediates\\exploded-aar\\LifeLikeChess\\common\\unspecified\\res\\anim\\dialog_bottom_exit.xml"
+    },
+    {
+        "merged": "E:\\workspace_studio\\LifeLikeChess\\easeui3.2.1\\build\\intermediates\\res\\merged\\release\\anim\\back_left_in.xml",
+        "source": "E:\\workspace_studio\\LifeLikeChess\\easeui3.2.1\\build\\intermediates\\exploded-aar\\LifeLikeChess\\common\\unspecified\\res\\anim\\back_left_in.xml"
+    },
+    {
+        "merged": "E:\\workspace_studio\\LifeLikeChess\\easeui3.2.1\\build\\intermediates\\res\\merged\\release\\anim\\back_bottom_out.xml",
+        "source": "E:\\workspace_studio\\LifeLikeChess\\easeui3.2.1\\build\\intermediates\\exploded-aar\\LifeLikeChess\\common\\unspecified\\res\\anim\\back_bottom_out.xml"
+    },
+    {
+        "merged": "E:\\workspace_studio\\LifeLikeChess\\easeui3.2.1\\build\\intermediates\\res\\merged\\release\\anim\\dialog_normal_exit.xml",
+        "source": "E:\\workspace_studio\\LifeLikeChess\\easeui3.2.1\\build\\intermediates\\exploded-aar\\LifeLikeChess\\common\\unspecified\\res\\anim\\dialog_normal_exit.xml"
+    },
+    {
+        "merged": "E:\\workspace_studio\\LifeLikeChess\\easeui3.2.1\\build\\intermediates\\res\\merged\\release\\anim\\dialog_bottom_enter.xml",
+        "source": "E:\\workspace_studio\\LifeLikeChess\\easeui3.2.1\\build\\intermediates\\exploded-aar\\LifeLikeChess\\common\\unspecified\\res\\anim\\dialog_bottom_enter.xml"
+    },
+    {
+        "merged": "E:\\workspace_studio\\LifeLikeChess\\easeui3.2.1\\build\\intermediates\\res\\merged\\release\\anim\\head_in.xml",
+        "source": "E:\\workspace_studio\\LifeLikeChess\\easeui3.2.1\\build\\intermediates\\exploded-aar\\LifeLikeChess\\common\\unspecified\\res\\anim\\head_in.xml"
+    },
+    {
+        "merged": "E:\\workspace_studio\\LifeLikeChess\\easeui3.2.1\\build\\intermediates\\res\\merged\\release\\anim\\top_in.xml",
+        "source": "E:\\workspace_studio\\LifeLikeChess\\easeui3.2.1\\build\\intermediates\\exploded-aar\\LifeLikeChess\\common\\unspecified\\res\\anim\\top_in.xml"
+    },
+    {
+        "merged": "E:\\workspace_studio\\LifeLikeChess\\easeui3.2.1\\build\\intermediates\\res\\merged\\release\\anim\\push_top_out2.xml",
+        "source": "E:\\workspace_studio\\LifeLikeChess\\easeui3.2.1\\build\\intermediates\\exploded-aar\\LifeLikeChess\\common\\unspecified\\res\\anim\\push_top_out2.xml"
+    },
+    {
+        "merged": "E:\\workspace_studio\\LifeLikeChess\\easeui3.2.1\\build\\intermediates\\res\\merged\\release\\anim\\design_fab_in.xml",
+        "source": "E:\\workspace_studio\\LifeLikeChess\\easeui3.2.1\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.0.1\\res\\anim\\design_fab_in.xml"
+    },
+    {
+        "merged": "E:\\workspace_studio\\LifeLikeChess\\easeui3.2.1\\build\\intermediates\\res\\merged\\release\\anim\\top_out.xml",
+        "source": "E:\\workspace_studio\\LifeLikeChess\\easeui3.2.1\\build\\intermediates\\exploded-aar\\LifeLikeChess\\common\\unspecified\\res\\anim\\top_out.xml"
+    },
+    {
+        "merged": "E:\\workspace_studio\\LifeLikeChess\\easeui3.2.1\\build\\intermediates\\res\\merged\\release\\anim\\back_top_out.xml",
+        "source": "E:\\workspace_studio\\LifeLikeChess\\easeui3.2.1\\build\\intermediates\\exploded-aar\\LifeLikeChess\\common\\unspecified\\res\\anim\\back_top_out.xml"
+    },
+    {
+        "merged": "E:\\workspace_studio\\LifeLikeChess\\easeui3.2.1\\build\\intermediates\\res\\merged\\release\\anim\\design_fab_out.xml",
+        "source": "E:\\workspace_studio\\LifeLikeChess\\easeui3.2.1\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.0.1\\res\\anim\\design_fab_out.xml"
+    },
+    {
+        "merged": "E:\\workspace_studio\\LifeLikeChess\\easeui3.2.1\\build\\intermediates\\res\\merged\\release\\anim\\abc_fade_in.xml",
+        "source": "E:\\workspace_studio\\LifeLikeChess\\easeui3.2.1\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\anim\\abc_fade_in.xml"
+    },
+    {
+        "merged": "E:\\workspace_studio\\LifeLikeChess\\easeui3.2.1\\build\\intermediates\\res\\merged\\release\\anim\\back_right_out.xml",
+        "source": "E:\\workspace_studio\\LifeLikeChess\\easeui3.2.1\\build\\intermediates\\exploded-aar\\LifeLikeChess\\common\\unspecified\\res\\anim\\back_right_out.xml"
+    },
+    {
+        "merged": "E:\\workspace_studio\\LifeLikeChess\\easeui3.2.1\\build\\intermediates\\res\\merged\\release\\anim\\design_snackbar_in.xml",
+        "source": "E:\\workspace_studio\\LifeLikeChess\\easeui3.2.1\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.0.1\\res\\anim\\design_snackbar_in.xml"
+    },
+    {
+        "merged": "E:\\workspace_studio\\LifeLikeChess\\easeui3.2.1\\build\\intermediates\\res\\merged\\release\\anim\\push_top_in.xml",
+        "source": "E:\\workspace_studio\\LifeLikeChess\\easeui3.2.1\\build\\intermediates\\exploded-aar\\LifeLikeChess\\common\\unspecified\\res\\anim\\push_top_in.xml"
+    },
+    {
+        "merged": "E:\\workspace_studio\\LifeLikeChess\\easeui3.2.1\\build\\intermediates\\res\\merged\\release\\anim\\abc_slide_in_top.xml",
+        "source": "E:\\workspace_studio\\LifeLikeChess\\easeui3.2.1\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\anim\\abc_slide_in_top.xml"
+    }
+]

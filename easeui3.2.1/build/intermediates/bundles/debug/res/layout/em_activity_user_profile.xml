@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:background="#eff2f6"
+              android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp">
+
+        <ImageView
+            android:id="@+id/profile_avatar"
+            android:layout_width="60dip"
+            android:layout_height="60dip"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_margin="8dip"
+            android:scaleType="centerCrop"
+            android:src="@drawable/em_default_avatar"/>
+
+        <ImageView
+            android:id="@+id/profile_update_avatar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/profile_avatar"
+            android:layout_alignBottom="@+id/profile_avatar"
+            android:layout_alignRight="@+id/profile_avatar"
+            android:layout_margin="3dip"
+            android:src="@drawable/em_profile_headphoto_update_icon"/>
+
+        <TextView
+            android:id="@+id/profile_username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/profile_avatar"
+            android:layout_alignTop="@id/profile_avatar"
+            android:layout_toRightOf="@id/profile_avatar"
+            android:gravity="center"
+            android:text="？"
+            android:textColor="#000000"
+            android:textSize="16sp"/>
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/gray_b5b5b6"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:text="昵称："
+            android:textColor="#808080"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/profile_nickname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical|right"
+            android:text="？"
+            android:textColor="#3366cc"
+            android:textSize="16sp"/>
+    </LinearLayout>
+
+    <!--<View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/gray_b5b5b6"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:text="性别："
+            android:textColor="#808080"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/profile_sex"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical|right"
+            android:text="？"
+            android:textColor="#3366cc"
+            android:textSize="16sp"/>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/gray_b5b5b6"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:text="邮箱："
+            android:textColor="#808080"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/profile_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical|right"
+            android:text="？"
+            android:textColor="#3366cc"
+            android:textSize="16sp"/>
+    </LinearLayout>-->
+
+</LinearLayout>

@@ -1,0 +1,520 @@
+[
+    {
+        "outputFile": "E:\\workspace_studio\\LifeLikeChess\\easeui3.2.1\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-xlarge-v4\\values-xlarge-v4.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 70,
+                    "endOffset": 121
+                },
+                "from": {
+                    "file": "E:\\workspace_studio\\LifeLikeChess\\easeui3.2.1\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\values-xlarge-v4\\values-xlarge-v4.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 70,
+                        "endOffset": 121
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 126,
+                    "endColumn": 70,
+                    "endOffset": 192
+                },
+                "from": {
+                    "file": "E:\\workspace_studio\\LifeLikeChess\\easeui3.2.1\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\values-xlarge-v4\\values-xlarge-v4.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 126,
+                        "endColumn": 70,
+                        "endOffset": 192
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 197,
+                    "endColumn": 69,
+                    "endOffset": 262
+                },
+                "from": {
+                    "file": "E:\\workspace_studio\\LifeLikeChess\\easeui3.2.1\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\values-xlarge-v4\\values-xlarge-v4.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 197,
+                        "endColumn": 69,
+                        "endOffset": 262
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 267,
+                    "endColumn": 69,
+                    "endOffset": 332
+                },
+                "from": {
+                    "file": "E:\\workspace_studio\\LifeLikeChess\\easeui3.2.1\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\values-xlarge-v4\\values-xlarge-v4.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 267,
+                        "endColumn": 69,
+                        "endOffset": 332
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 337,
+                    "endColumn": 67,
+                    "endOffset": 400
+                },
+                "from": {
+                    "file": "E:\\workspace_studio\\LifeLikeChess\\easeui3.2.1\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\values-xlarge-v4\\values-xlarge-v4.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 337,
+                        "endColumn": 67,
+                        "endOffset": 400
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 405,
+                    "endColumn": 67,
+                    "endOffset": 468
+                },
+                "from": {
+                    "file": "E:\\workspace_studio\\LifeLikeChess\\easeui3.2.1\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\values-xlarge-v4\\values-xlarge-v4.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 405,
+                        "endColumn": 67,
+                        "endOffset": 468
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 473,
+                    "endColumn": 44,
+                    "endOffset": 513
+                },
+                "from": {
+                    "file": "E:\\workspace_studio\\LifeLikeChess\\easeui3.2.1\\build\\intermediates\\exploded-aar\\LifeLikeChess\\common\\unspecified\\res\\values-xlarge-v4\\values-xlarge-v4.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 44,
+                        "endOffset": 95
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 518,
+                    "endColumn": 43,
+                    "endOffset": 557
+                },
+                "from": {
+                    "file": "E:\\workspace_studio\\LifeLikeChess\\easeui3.2.1\\build\\intermediates\\exploded-aar\\LifeLikeChess\\common\\unspecified\\res\\values-xlarge-v4\\values-xlarge-v4.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 100,
+                        "endColumn": 43,
+                        "endOffset": 139
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 562,
+                    "endColumn": 43,
+                    "endOffset": 601
+                },
+                "from": {
+                    "file": "E:\\workspace_studio\\LifeLikeChess\\easeui3.2.1\\build\\intermediates\\exploded-aar\\LifeLikeChess\\common\\unspecified\\res\\values-xlarge-v4\\values-xlarge-v4.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 144,
+                        "endColumn": 43,
+                        "endOffset": 183
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 606,
+                    "endColumn": 43,
+                    "endOffset": 645
+                },
+                "from": {
+                    "file": "E:\\workspace_studio\\LifeLikeChess\\easeui3.2.1\\build\\intermediates\\exploded-aar\\LifeLikeChess\\common\\unspecified\\res\\values-xlarge-v4\\values-xlarge-v4.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 188,
+                        "endColumn": 43,
+                        "endOffset": 227
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 650,
+                    "endColumn": 43,
+                    "endOffset": 689
+                },
+                "from": {
+                    "file": "E:\\workspace_studio\\LifeLikeChess\\easeui3.2.1\\build\\intermediates\\exploded-aar\\LifeLikeChess\\common\\unspecified\\res\\values-xlarge-v4\\values-xlarge-v4.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 232,
+                        "endColumn": 43,
+                        "endOffset": 271
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 694,
+                    "endColumn": 43,
+                    "endOffset": 733
+                },
+                "from": {
+                    "file": "E:\\workspace_studio\\LifeLikeChess\\easeui3.2.1\\build\\intermediates\\exploded-aar\\LifeLikeChess\\common\\unspecified\\res\\values-xlarge-v4\\values-xlarge-v4.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 276,
+                        "endColumn": 43,
+                        "endOffset": 315
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 738,
+                    "endColumn": 43,
+                    "endOffset": 777
+                },
+                "from": {
+                    "file": "E:\\workspace_studio\\LifeLikeChess\\easeui3.2.1\\build\\intermediates\\exploded-aar\\LifeLikeChess\\common\\unspecified\\res\\values-xlarge-v4\\values-xlarge-v4.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 320,
+                        "endColumn": 43,
+                        "endOffset": 359
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 782,
+                    "endColumn": 43,
+                    "endOffset": 821
+                },
+                "from": {
+                    "file": "E:\\workspace_studio\\LifeLikeChess\\easeui3.2.1\\build\\intermediates\\exploded-aar\\LifeLikeChess\\common\\unspecified\\res\\values-xlarge-v4\\values-xlarge-v4.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 364,
+                        "endColumn": 43,
+                        "endOffset": 403
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 826,
+                    "endColumn": 43,
+                    "endOffset": 865
+                },
+                "from": {
+                    "file": "E:\\workspace_studio\\LifeLikeChess\\easeui3.2.1\\build\\intermediates\\exploded-aar\\LifeLikeChess\\common\\unspecified\\res\\values-xlarge-v4\\values-xlarge-v4.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 408,
+                        "endColumn": 43,
+                        "endOffset": 447
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 870,
+                    "endColumn": 43,
+                    "endOffset": 909
+                },
+                "from": {
+                    "file": "E:\\workspace_studio\\LifeLikeChess\\easeui3.2.1\\build\\intermediates\\exploded-aar\\LifeLikeChess\\common\\unspecified\\res\\values-xlarge-v4\\values-xlarge-v4.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 452,
+                        "endColumn": 43,
+                        "endOffset": 491
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 914,
+                    "endColumn": 43,
+                    "endOffset": 953
+                },
+                "from": {
+                    "file": "E:\\workspace_studio\\LifeLikeChess\\easeui3.2.1\\build\\intermediates\\exploded-aar\\LifeLikeChess\\common\\unspecified\\res\\values-xlarge-v4\\values-xlarge-v4.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 496,
+                        "endColumn": 43,
+                        "endOffset": 535
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 19,
+                    "startColumn": 4,
+                    "startOffset": 958,
+                    "endColumn": 43,
+                    "endOffset": 997
+                },
+                "from": {
+                    "file": "E:\\workspace_studio\\LifeLikeChess\\easeui3.2.1\\build\\intermediates\\exploded-aar\\LifeLikeChess\\common\\unspecified\\res\\values-xlarge-v4\\values-xlarge-v4.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 540,
+                        "endColumn": 43,
+                        "endOffset": 579
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 20,
+                    "startColumn": 4,
+                    "startOffset": 1002,
+                    "endColumn": 52,
+                    "endOffset": 1050
+                },
+                "from": {
+                    "file": "E:\\workspace_studio\\LifeLikeChess\\easeui3.2.1\\res\\values-xlarge\\ease_dimens.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 663,
+                        "endColumn": 52,
+                        "endOffset": 711
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 21,
+                    "startColumn": 4,
+                    "startOffset": 1055,
+                    "endColumn": 53,
+                    "endOffset": 1104
+                },
+                "from": {
+                    "file": "E:\\workspace_studio\\LifeLikeChess\\easeui3.2.1\\res\\values-xlarge\\ease_dimens.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 716,
+                        "endColumn": 53,
+                        "endOffset": 765
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 22,
+                    "startColumn": 4,
+                    "startOffset": 1109,
+                    "endColumn": 47,
+                    "endOffset": 1152
+                },
+                "from": {
+                    "file": "E:\\workspace_studio\\LifeLikeChess\\easeui3.2.1\\build\\intermediates\\exploded-aar\\LifeLikeChess\\common\\unspecified\\res\\values-xlarge-v4\\values-xlarge-v4.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 584,
+                        "endColumn": 47,
+                        "endOffset": 627
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 23,
+                    "startColumn": 4,
+                    "startOffset": 1157,
+                    "endColumn": 47,
+                    "endOffset": 1200
+                },
+                "from": {
+                    "file": "E:\\workspace_studio\\LifeLikeChess\\easeui3.2.1\\build\\intermediates\\exploded-aar\\LifeLikeChess\\common\\unspecified\\res\\values-xlarge-v4\\values-xlarge-v4.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 632,
+                        "endColumn": 47,
+                        "endOffset": 675
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 24,
+                    "startColumn": 4,
+                    "startOffset": 1205,
+                    "endColumn": 47,
+                    "endOffset": 1248
+                },
+                "from": {
+                    "file": "E:\\workspace_studio\\LifeLikeChess\\easeui3.2.1\\build\\intermediates\\exploded-aar\\LifeLikeChess\\common\\unspecified\\res\\values-xlarge-v4\\values-xlarge-v4.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 680,
+                        "endColumn": 47,
+                        "endOffset": 723
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 25,
+                    "startColumn": 4,
+                    "startOffset": 1253,
+                    "endColumn": 47,
+                    "endOffset": 1296
+                },
+                "from": {
+                    "file": "E:\\workspace_studio\\LifeLikeChess\\easeui3.2.1\\build\\intermediates\\exploded-aar\\LifeLikeChess\\common\\unspecified\\res\\values-xlarge-v4\\values-xlarge-v4.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 728,
+                        "endColumn": 47,
+                        "endOffset": 771
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 26,
+                    "startColumn": 4,
+                    "startOffset": 1301,
+                    "endColumn": 47,
+                    "endOffset": 1344
+                },
+                "from": {
+                    "file": "E:\\workspace_studio\\LifeLikeChess\\easeui3.2.1\\build\\intermediates\\exploded-aar\\LifeLikeChess\\common\\unspecified\\res\\values-xlarge-v4\\values-xlarge-v4.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 776,
+                        "endColumn": 47,
+                        "endOffset": 819
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 27,
+                    "startColumn": 4,
+                    "startOffset": 1349,
+                    "endColumn": 47,
+                    "endOffset": 1392
+                },
+                "from": {
+                    "file": "E:\\workspace_studio\\LifeLikeChess\\easeui3.2.1\\build\\intermediates\\exploded-aar\\LifeLikeChess\\common\\unspecified\\res\\values-xlarge-v4\\values-xlarge-v4.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 824,
+                        "endColumn": 47,
+                        "endOffset": 867
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 28,
+                    "startColumn": 4,
+                    "startOffset": 1397,
+                    "endColumn": 47,
+                    "endOffset": 1440
+                },
+                "from": {
+                    "file": "E:\\workspace_studio\\LifeLikeChess\\easeui3.2.1\\build\\intermediates\\exploded-aar\\LifeLikeChess\\common\\unspecified\\res\\values-xlarge-v4\\values-xlarge-v4.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 872,
+                        "endColumn": 47,
+                        "endOffset": 915
+                    }
+                }
+            }
+        ]
+    }
+]

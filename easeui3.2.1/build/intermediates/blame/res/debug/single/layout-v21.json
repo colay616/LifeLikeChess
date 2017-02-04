@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "E:\\workspace_studio\\LifeLikeChess\\easeui3.2.1\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_icon_group.xml",
+        "source": "E:\\workspace_studio\\LifeLikeChess\\easeui3.2.1\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\layout-v21\\notification_template_icon_group.xml"
+    },
+    {
+        "merged": "E:\\workspace_studio\\LifeLikeChess\\easeui3.2.1\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action.xml",
+        "source": "E:\\workspace_studio\\LifeLikeChess\\easeui3.2.1\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\layout-v21\\notification_action.xml"
+    },
+    {
+        "merged": "E:\\workspace_studio\\LifeLikeChess\\easeui3.2.1\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_custom_big.xml",
+        "source": "E:\\workspace_studio\\LifeLikeChess\\easeui3.2.1\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\layout-v21\\notification_template_custom_big.xml"
+    },
+    {
+        "merged": "E:\\workspace_studio\\LifeLikeChess\\easeui3.2.1\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action_tombstone.xml",
+        "source": "E:\\workspace_studio\\LifeLikeChess\\easeui3.2.1\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\layout-v21\\notification_action_tombstone.xml"
+    }
+]
