@@ -12,6 +12,14 @@
 部分游戏还没有实现人机模式/在线模式/双人模式。
 
 ###Demo下载
+[应用宝：http://183.61.62.150/imtt.dd.qq.com/16891/08C0C6AF646B91612D968CEC8335E4F3.apk?mkey=58951da1f47da582&f=6920&c=0&fsname=com.ue.chess_life_2.5.2_12.apk&csr=4d5s&p=.apk](http://183.61.62.150/imtt.dd.qq.com/16891/08C0C6AF646B91612D968CEC8335E4F3.apk?mkey=58951da1f47da582&f=6920&c=0&fsname=com.ue.chess_life_2.5.2_12.apk&csr=4d5s&p=.apk)
 
 
 ###运行截图
+<img src="https://github.com/cbfg5210/LifeLikeChess/blob/master/caps/main.png?raw=true" width="300" height="400">
+<img src="https://github.com/cbfg5210/LifeLikeChess/blob/master/caps/cc.png?raw=true" width="300" height="400">
+<img src="https://github.com/cbfg5210/LifeLikeChess/blob/master/caps/gb.png?raw=true" width="300" height="400">
+<img src="https://github.com/cbfg5210/LifeLikeChess/blob/master/caps/rv.png?raw=true" width="300" height="400">
+<img src="https://github.com/cbfg5210/LifeLikeChess/blob/master/caps/moon.png?raw=true" width="300" height="400">
+<img src="https://github.com/cbfg5210/LifeLikeChess/blob/master/caps/ic.png?raw=true" width="300" height="400">
+<img src="https://github.com/cbfg5210/LifeLikeChess/blob/master/caps/group.png?raw=true" width="300" height="400">
