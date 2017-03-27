@@ -300,6 +300,7 @@ public class ChessView extends BaseGameView{
 //            qzs[toX][toY] = ChessUtil.getPoint(qzs[data[0]][data[1]].f, toX, data[3], oppoColor);
 //            qzs[toX][toY].s = GameConstants.STATUS_CAN_GO;
             qzs[toX][toY] = new ChessPoint(selectedChess.f(), toX, toY, selectedChess.c);
+            qzs[toX][toY].s = ChessUtil.STATUS_CAN_GO;
         } else {
             qzs[toX][toY].s = ChessUtil.STATUS_CAN_EAT;
         }
@@ -368,6 +369,7 @@ public class ChessView extends BaseGameView{
         LogUtil.i(TAG, "aPlayChess,fromX=" + fromX + ",fromY=" + fromY + ";toX=" + toX + ",toY=" + toY);
 
         if (qzs[toX][toY].s == ChessUtil.STATUS_CAN_GO || qzs[toX][toY].s == ChessUtil.STATUS_CAN_EAT) {
+            //游戏结束
             if (qzs[toX][toY].s == ChessUtil.STATUS_CAN_EAT && qzs[toX][toY].f() == ChessUtil.KING) {
                 gameOver(qzs[toX][toY].c == myColor ? mOnPlayListener.FLAG_OPPO_WIN : mOnPlayListener.FLAG_I_WIN);
                 completeOneStep(toX, toY, false, -1);

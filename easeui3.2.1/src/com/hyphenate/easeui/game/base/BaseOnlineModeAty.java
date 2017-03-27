@@ -450,11 +450,16 @@ public abstract class BaseOnlineModeAty extends BaseGameMsgAty {
 
     @Override
     public void onDataReceived(int[] data) {
+        String dataStr="";
+        for(int i=0,len=data.length;i<len;i++){
+            dataStr=dataStr+data[0]+",";
+        }
         if (!game_chessboard.isGameStarted()) {
             return;
         }
         //可能我请求悔棋，对方取消了继续下棋
         GameDialogs.dismissTipAlertDialog();
+
         game_chessboard.playChess(data);
     }
 
