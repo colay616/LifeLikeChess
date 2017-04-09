@@ -15,6 +15,7 @@ import com.hyphenate.easeui.game.GameConstants;
 import com.hyphenate.easeui.game.base.BaseGameView;
 import com.hyphenate.easeui.game.db.DBConstants;
 import com.hyphenate.easeui.game.db.GameDbManager;
+import com.socks.library.KLog;
 import com.ue.chess.entity.ChessPoint;
 import com.ue.chess.entity.ChessRecord;
 import com.ue.chess.entity.RecordParser;
@@ -29,7 +30,6 @@ import com.ue.common.util.ToastUtil;
  * Date:2016/9/13.
  */
 public class ChessView extends BaseGameView {
-    private static final String TAG = ChessView.class.getSimpleName();
     private float mPanelWidth;
     private float mSquareWidth;//棋盘格子宽高
     private Paint mPaint;
@@ -137,10 +137,13 @@ public class ChessView extends BaseGameView {
             mPaint.setStyle(Paint.Style.STROKE);
             mPaint.setStrokeWidth(3);
             mPaint.setColor(Color.BLUE);
-            canvas.drawRect(lastMove.fromX * mSquareWidth, lastMove.fromY * mSquareWidth, (lastMove.fromX + 1) * mSquareWidth, (lastMove.fromY + 1) * mSquareWidth, mPaint);
+
+            ChessPoint fromPont=lastMove.fromPoint;
+            ChessPoint toPoint=lastMove.toPoint;
+            canvas.drawRect(fromPont.x * mSquareWidth, fromPont.y * mSquareWidth, (fromPont.x + 1) * mSquareWidth, (fromPont.y + 1) * mSquareWidth, mPaint);
 
             mPaint.setColor(Color.GREEN);
-            canvas.drawRect(lastMove.toX * mSquareWidth, lastMove.toY * mSquareWidth, (lastMove.toX + 1) * mSquareWidth, (lastMove.toY + 1) * mSquareWidth, mPaint);
+            canvas.drawRect(toPoint.x * mSquareWidth, toPoint.y * mSquareWidth, (toPoint.x + 1) * mSquareWidth, (toPoint.y + 1) * mSquareWidth, mPaint);
         }
     }
 
@@ -249,7 +252,7 @@ public class ChessView extends BaseGameView {
             if (null == selectedChess) {
                 if ((isMyTurn && qzs[x][y].c == myColor) || (!isMyTurn && qzs[x][y].c == oppoColor)) {
                     selectedChess = qzs[x][y];
-                    LogUtil.e(TAG,"isFirstMove=" + selectedChess.isFirstMove());
+                    KLog.e("isFirstMove=" + selectedChess.isFirstMove());
                     selectedChess.showValidMoves(isMyTurn, qzs);
                     return true;
                 }
@@ -265,9 +268,9 @@ public class ChessView extends BaseGameView {
                 }
                 return true;
             }
-            LogUtil.i(TAG, "before playChess,isMyTurn=" + isMyTurn);
+            KLog.e("before playChess,isMyTurn=" + isMyTurn);
             playChess(new int[]{x, y});
-            LogUtil.i(TAG, "after playChess,isMyTurn=" + isMyTurn);
+            KLog.e("after playChess,isMyTurn=" + isMyTurn);
         }
         return true;
     }
@@ -278,7 +281,7 @@ public class ChessView extends BaseGameView {
 
     private void completeOneStep(int x, int y, int extraFlag) {
         boolean isPawnPromoted = isPawnPromoted(extraFlag);
-        LogUtil.i(TAG, "completeOneStep,isPawnPromoted=" + isPawnPromoted + ",x=" + x + ",y=" + y);
+        KLog.e("completeOneStep,isPawnPromoted=" + isPawnPromoted + ",x=" + x + ",y=" + y);
 
         if (extraFlag == ChessUtil.FLAG_EXCHANGE) {
             //王车易位：王向车方向移动两格，车绕过王停在王的旁边
@@ -304,13 +307,13 @@ public class ChessView extends BaseGameView {
                 qzs[x][y].setF(extraFlag);
             }
         }
-        qzs[lastMove.fromX][lastMove.fromY] = null;//清除走前的位置
+        qzs[lastMove.fromPoint.x][lastMove.fromPoint.y] = null;//清除走前的位置
         selectedChess = null;//清除选中
         resetStatus();
 
         if (isMyTurn) {
             isMyTurn = false;
-            int[] data = (isPawnPromoted||extraFlag==ChessUtil.FLAG_EXCHANGE) ? new int[]{lastMove.fromX, lastMove.fromY, lastMove.toX, lastMove.toY, extraFlag} : new int[]{lastMove.fromX, lastMove.fromY, lastMove.toX, lastMove.toY};
+            int[] data = (isPawnPromoted||extraFlag==ChessUtil.FLAG_EXCHANGE) ? new int[]{lastMove.fromPoint.x, lastMove.fromPoint.y, lastMove.toPoint.x, lastMove.toPoint.y, extraFlag} : new int[]{lastMove.fromPoint.x, lastMove.fromPoint.y, lastMove.toPoint.x, lastMove.toPoint.y};
             mOnPlayListener.onIPlayed(data);
         } else {
             isMyTurn = true;
@@ -321,6 +324,7 @@ public class ChessView extends BaseGameView {
     private void saveRecord(ChessRecord record){
         //<-------save record--------
         lastMove=record;
+        LogUtil.e("saveRecord","lastMove="+lastMove.toString());
         boolean saveResult = GameDbManager.getInstance().saveChessRecord(DBConstants.TABLE_CHESS, lastMove.toString());
         if (saveResult) {
             canUndoTime++;
@@ -331,13 +335,13 @@ public class ChessView extends BaseGameView {
     public int[] translateData(int[] data) {
         int fromX = data[0], fromY = data[1], toX = data[2], toY = data[3];
         if (gameMode == GameConstants.MODE_ONLINE) {
-            LogUtil.i(TAG, "before translation,data0=" + data[0] + ",data1=" + data[1] + ",data2=" + data[2] + ",data3=" + data[3]);
+            KLog.e("before translation,data0=" + data[0] + ",data1=" + data[1] + ",data2=" + data[2] + ",data3=" + data[3]);
 //            before translation,data0=4,data1=7,data2=7,data3=7
             fromX = 7 - fromX;
             fromY = 7 - fromY;
             toX = 7 - toX;
             toY = 7 - toY;
-            LogUtil.i(TAG,"after translation,fromX="+fromX+",fromY="+fromY+",toX="+toX+",toY="+toY);
+            KLog.e("after translation,fromX="+fromX+",fromY="+fromY+",toX="+toX+",toY="+toY);
 //            after translation,fromX=3,fromY=0,toX=0,toY=0
         }
         selectedChess = qzs[fromX][fromY];
@@ -405,13 +409,11 @@ public class ChessView extends BaseGameView {
         } else {
             data = translateData(oData);
         }
-//        before translation,data0=3,data1=6,data2=3,data3=4
-//      aPlayChess,oData0=4,oData1=1;data0=4,data1=3
         int fromX = selectedChess.x;
         int fromY = selectedChess.y;
         int toX = data[0];
         int toY = data[1];
-        LogUtil.i(TAG, "aPlayChess,fromX=" + fromX + ",fromY=" + fromY + ";toX=" + toX + ",toY=" + toY);
+        KLog.e("aPlayChess,fromX=" + fromX + ",fromY=" + fromY + ";toX=" + toX + ",toY=" + toY);
 
         if (qzs[toX][toY].s != ChessUtil.STATUS_CAN_GO && qzs[toX][toY].s != ChessUtil.STATUS_CAN_EAT && qzs[toX][toY].s != ChessUtil.STATUS_EXCHANGE) {
             return;
@@ -467,38 +469,39 @@ public class ChessView extends BaseGameView {
     public void undoOnce(boolean isMyUndo) {
         Object[] lastTwoRecords = GameDbManager.getInstance().getLastTwoRecords(DBConstants.TABLE_CHESS, new RecordParser());
         if (null == lastTwoRecords) {
-            LogUtil.i(TAG, "null = lastTwoRecords");
             return;
         }
         lastMove = (ChessRecord) lastTwoRecords[0];
-        LogUtil.e(TAG, "lastMove=" + lastMove);
+        KLog.e("lastMove=" + lastMove);
         if (lastMove == null) {
             return;
         }
 
-        qzs[lastMove.fromX][lastMove.fromY] = new ChessPoint(lastMove.fromF, lastMove.fromX, lastMove.fromY, lastMove.fromC);
-        qzs[lastMove.fromX][lastMove.fromY].setFirstMove(lastMove.fromFirstMove);
-        if (lastMove.toF == -1) {
-            qzs[lastMove.toX][lastMove.toY] = null;
+        ChessPoint fromPoint=lastMove.fromPoint;
+        ChessPoint toPoint=lastMove.toPoint;
+        qzs[fromPoint.x][fromPoint.y] = new ChessPoint(fromPoint.f(), fromPoint.x, fromPoint.y, fromPoint.c);
+        qzs[fromPoint.x][fromPoint.y].setFirstMove(fromPoint.isFirstMove());
+        if (toPoint.f() == -1) {
+            qzs[toPoint.x][toPoint.y] = null;
         } else {
-            qzs[lastMove.toX][lastMove.toY] = new ChessPoint(lastMove.toF, lastMove.toX, lastMove.toY, lastMove.toC);
-            qzs[lastMove.toX][lastMove.toY].setFirstMove(lastMove.toFirstMove);
+            qzs[toPoint.x][toPoint.y] = new ChessPoint(toPoint.f(), toPoint.x, toPoint.y, toPoint.c);
+            qzs[toPoint.x][toPoint.y].setFirstMove(toPoint.isFirstMove());
         }
 
         if(lastMove.isExchange){//如果是王车易位的话要移除王车之间的棋子
             int fromX,toX;
-            if(lastMove.fromX>lastMove.toX){//车在王的左侧
-                fromX=lastMove.toX;
-                toX=lastMove.fromX;
+            if(fromPoint.x>toPoint.x){//车在王的左侧
+                fromX=toPoint.x;
+                toX=fromPoint.x;
             }else{//车在王的右侧
-                fromX=lastMove.fromX;
-                toX=lastMove.toX;
+                fromX=fromPoint.x;
+                toX=toPoint.x;
             }
             for(int i=fromX+1;i<toX;i++){
-                if(qzs[i][lastMove.fromY]==null){
+                if(qzs[i][fromPoint.y]==null){
                     continue;
                 }
-                qzs[i][lastMove.fromY]=null;
+                qzs[i][fromPoint.y]=null;
             }
         }
         GameDbManager.getInstance().deleteChessRecord(DBConstants.TABLE_CHESS, lastMove.id);

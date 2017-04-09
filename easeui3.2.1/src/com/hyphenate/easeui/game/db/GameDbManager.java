@@ -35,7 +35,7 @@ public class GameDbManager {
         try {
             SQLiteDatabase db = gameDbHelper.getWritableDatabase();
             if (db.isOpen()) {
-                String sql=String.format("insert into %s(%s) values(\"%s\");",tableName,DBConstants.COLUMN_DATA,data);
+                String sql=String.format("insert into %s(%s) values('%s');",tableName,DBConstants.COLUMN_DATA,data);
                 db.execSQL(sql);
                 return true;
             }

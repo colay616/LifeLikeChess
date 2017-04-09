@@ -1,10 +1,15 @@
 package com.ue.chess.entity;
 
+import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
+import com.google.gson.JsonDeserializationContext;
+import com.google.gson.JsonDeserializer;
+import com.google.gson.JsonElement;
+import com.google.gson.JsonObject;
+import com.google.gson.JsonParseException;
 import com.hyphenate.easeui.game.db.DataParser;
-import com.ue.common.util.LogUtil;
 
-import org.json.JSONException;
-import org.json.JSONObject;
+import java.lang.reflect.Type;
 
 /**
  * Created by hawk on 2017/1/9.
@@ -13,25 +18,36 @@ import org.json.JSONObject;
 public class RecordParser implements DataParser<ChessRecord> {
     @Override
     public ChessRecord parse(int id, String data) {
-        try {
-            JSONObject dataJson = new JSONObject(data);
-            ChessRecord chessRecord = new ChessRecord();
-            chessRecord.id = id;
-            chessRecord.fromF = dataJson.optInt("fromF", -1);
-            chessRecord.fromX = dataJson.optInt("fromX", -1);
-            chessRecord.fromY = dataJson.optInt("fromY", -1);
-            chessRecord.fromC = dataJson.optInt("fromC", -1);
-            chessRecord.fromFirstMove =dataJson.optBoolean("fromFirstMove",false);
-            chessRecord.toF = dataJson.optInt("toF", -1);
-            chessRecord.toX = dataJson.optInt("toX", -1);
-            chessRecord.toY = dataJson.optInt("toY", -1);
-            chessRecord.toC = dataJson.optInt("toC", -1);
-            chessRecord.toFirstMove =dataJson.optBoolean("toFirstMove",false);
-            chessRecord.isExchange=dataJson.optBoolean("isExchange",false);
-            return chessRecord;
-        } catch (JSONException e) {
-            LogUtil.i("ChessRecord", "data parse error:" + e.getMessage());
+        Gson gson=new GsonBuilder().registerTypeAdapter(ChessRecord.class,new ChessRecordSerializer()).create();
+        ChessRecord chessRecord= gson.fromJson(data,ChessRecord.class);
+        chessRecord.id=id;
+        return chessRecord;
+    }
+
+    private class ChessRecordSerializer implements JsonDeserializer<ChessRecord>{
+        @Override
+        public ChessRecord deserialize(JsonElement json, Type typeOfT, JsonDeserializationContext context) throws JsonParseException {
+            JsonObject jsonObject=json.getAsJsonObject();
+
+            ChessPoint fromPoint=getChessPointFromJson(jsonObject.getAsJsonObject("fromPoint"));
+            ChessPoint toPoint=getChessPointFromJson(jsonObject.getAsJsonObject("toPoint"));
+            boolean isExchange=jsonObject.get("isExchange").getAsBoolean();
+
+            return new ChessRecord(fromPoint,toPoint,isExchange);
         }
-        return null;
+
+        private ChessPoint getChessPointFromJson(JsonObject chessPointJson){
+            if(chessPointJson==null){
+                return null;
+            }
+            int f=chessPointJson.get("f").getAsInt();
+            int x=chessPointJson.get("x").getAsInt();
+            int y=chessPointJson.get("y").getAsInt();
+            int c=chessPointJson.get("c").getAsInt();
+            int s=chessPointJson.get("s").getAsInt();
+            ChessPoint chessPoint=new ChessPoint(f,x,y,c);
+            chessPoint.s=s;
+            return chessPoint;
+        }
     }
 }
