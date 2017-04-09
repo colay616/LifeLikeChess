@@ -333,6 +333,9 @@ public class CNChessView extends BaseGameView {
             return;
         }
         lastMove = (CNChessRecord) lastTwoRecords[0];
+        if(lastMove==null){
+            return;
+        }
         if (null != mOnUndoListener) {
             int[] data = new int[]{
                     lastMove.fromF, lastMove.fromX, lastMove.fromY, lastMove.fromC,

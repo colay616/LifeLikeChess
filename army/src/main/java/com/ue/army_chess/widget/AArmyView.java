@@ -826,6 +826,9 @@ public class AArmyView extends BaseGameView {
             return;
         }
         AArmyRecord lastRecord = (AArmyRecord) lastTwoRecords[0];
+        if(lastRecord==null){
+            return;
+        }
         mArmyChesses[lastRecord.fromX][lastRecord.fromY] = lastRecord.getFrom();
         mArmyChesses[lastRecord.toX][lastRecord.toY] = lastRecord.getTo();
         GameDbManager.getInstance().deleteChessRecord(DBConstants.TABLE_ARMY_A, lastRecord.id);

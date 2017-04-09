@@ -83,10 +83,6 @@ public abstract class BaseGameView extends SurfaceView implements SurfaceHolder.
         mOnPlayListener = playListener;
     }
 
-//    protected void enableRender() {
-//        isToRender = true;
-//    }
-
     @Override
     public void run() {
         Canvas canvas = null;
@@ -96,7 +92,6 @@ public abstract class BaseGameView extends SurfaceView implements SurfaceHolder.
                 synchronized (renderSHolder) {
                     drawBoard(canvas);
                     drawPieces(canvas);
-//                    isToRender = false;//如果isToRender设置为false,没有效果
                 }
             } catch (Exception e) {
                 e.printStackTrace();
@@ -105,7 +100,6 @@ public abstract class BaseGameView extends SurfaceView implements SurfaceHolder.
                     renderSHolder.unlockCanvasAndPost(canvas);
                 }
             }
-//            isToRender = false;
         }
     }
 

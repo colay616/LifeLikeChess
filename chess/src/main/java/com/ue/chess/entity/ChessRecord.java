@@ -13,18 +13,23 @@ public class ChessRecord {
     public int fromX;
     public int fromY;
     public int fromC;
+    public boolean fromFirstMove;
     public int toF;
     public int toX;
     public int toY;
     public int toC;
+    public boolean toFirstMove;
+    public boolean isExchange;
 
     public ChessRecord(){}
 
-    public ChessRecord(ChessPoint from, ChessPoint to) {
+    public ChessRecord(ChessPoint from, ChessPoint to,boolean isExchange) {
         fromF = from.f();
         fromX = from.x;
         fromY = from.y;
         fromC = from.c;
+        this.isExchange=isExchange;
+        fromFirstMove =from.isFirstMove();
         if (null == to || to.s == ChessUtil.STATUS_CAN_GO) {
             toF = -1;
             toC = -1;
@@ -38,7 +43,7 @@ public class ChessRecord {
 
     @Override
     public String toString() {
-        return String.format("{'fromF':%d,'fromX':%d,'fromY':%d,'fromC':%d,'toF':%d,'toX':%d,'toY':%d,'toC':%d}",
-                fromF, fromX, fromY, fromC, toF, toX, toY, toC);
+        return String.format("{'isExchange':%b,'fromF':%d,'fromX':%d,'fromY':%d,'fromC':%d,'fromFirstMove':%b,'toF':%d,'toX':%d,'toY':%d,'toC':%d,'toFirstMove':%b}",
+                isExchange,fromF, fromX, fromY, fromC, fromFirstMove, toF, toX, toY, toC, toFirstMove);
     }
 }

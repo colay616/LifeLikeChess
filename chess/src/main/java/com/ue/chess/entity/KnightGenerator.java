@@ -9,7 +9,7 @@ package com.ue.chess.entity;
 // 可以越子行走，而没有 中国象棋 的 蹩马腿 的限制。
 public class KnightGenerator extends BaseGenerator{
     @Override
-    public void showValidMoves(ChessPoint[][] qzs, ChessPoint fromPoint) {
+    public void showValidMoves(boolean isMyMove,ChessPoint[][] qzs, ChessPoint fromPoint) {
         changeStatus(qzs,fromPoint,fromPoint.x-1,fromPoint.y-2);
         changeStatus(qzs,fromPoint,fromPoint.x-1,fromPoint.y+2);
         changeStatus(qzs,fromPoint,fromPoint.x-2,fromPoint.y+1);

@@ -21,10 +21,13 @@ public class RecordParser implements DataParser<ChessRecord> {
             chessRecord.fromX = dataJson.optInt("fromX", -1);
             chessRecord.fromY = dataJson.optInt("fromY", -1);
             chessRecord.fromC = dataJson.optInt("fromC", -1);
+            chessRecord.fromFirstMove =dataJson.optBoolean("fromFirstMove",false);
             chessRecord.toF = dataJson.optInt("toF", -1);
             chessRecord.toX = dataJson.optInt("toX", -1);
             chessRecord.toY = dataJson.optInt("toY", -1);
             chessRecord.toC = dataJson.optInt("toC", -1);
+            chessRecord.toFirstMove =dataJson.optBoolean("toFirstMove",false);
+            chessRecord.isExchange=dataJson.optBoolean("isExchange",false);
             return chessRecord;
         } catch (JSONException e) {
             LogUtil.i("ChessRecord", "data parse error:" + e.getMessage());

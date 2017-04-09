@@ -7,7 +7,12 @@ import com.ue.chess.util.ChessUtil;
  */
 
 public abstract class BaseGenerator {
-    public abstract void showValidMoves(ChessPoint[][] qzs, ChessPoint fromPoint);
+    /**
+     * @param isMyMove 我方行棋，此参数只为兵行棋所用到
+     * @param qzs
+     * @param fromPoint
+     */
+    public abstract void showValidMoves(boolean isMyMove,ChessPoint[][] qzs, ChessPoint fromPoint);
 
     protected boolean isOutOfRange(int xx, int yy) {
         if (xx < 0) {

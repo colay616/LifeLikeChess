@@ -8,19 +8,13 @@ package com.ue.chess.entity;
 // 该棋也是棋力最强的棋子。
 public class QueenGenerator extends BaseGenerator{
     @Override
-    public void showValidMoves(ChessPoint[][] qzs, ChessPoint fromPoint) {
+    public void showValidMoves(boolean isMyMove,ChessPoint[][] qzs, ChessPoint fromPoint) {
         //上
         for(int i=fromPoint.y-1;i>=0;i--){
             if(!changeStatus(qzs,fromPoint,fromPoint.x,i)){//changeStatus=false表示碰到墙了
                 break;
             }
         }
-//        //上   无效写法，因为fromPoint可能改变了
-//        for(int i=0;i<8;i++){
-//            if(!changeStatus(qzs,fromPoint,fromPoint.x,fromPoint.y-i)){//changeStatus=false表示碰到墙了
-//                break;
-//            }
-//        }
         //下
         for(int i=fromPoint.y+1;i<8;i++){
             if(!changeStatus(qzs,fromPoint,fromPoint.x,i)){

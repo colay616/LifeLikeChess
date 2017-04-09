@@ -155,6 +155,9 @@ public class MoonView extends BaseGameView {
             return;
         }
         lastChessMove = (MoonRecord) lastTwoMoveRecord[0];
+        if(lastChessMove==null){
+            return;
+        }
         mMoonPoints[lastChessMove.fromF].color = lastChessMove.fromC;
         mMoonPoints[lastChessMove.toF].color = NULL_COLOR;
 

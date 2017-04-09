@@ -11,12 +11,12 @@ import com.ue.chess.util.ChessUtil;
 // 前斜进一格内有对方棋子，就可以吃掉它，从而占据该格位置。
 public class PawnGenerator extends BaseGenerator{
     @Override
-    public void showValidMoves(ChessPoint[][] qzs, ChessPoint fromPoint) {
-        if(fromPoint.f()== ChessUtil.M_PAWN ||fromPoint.f()== ChessUtil.M_PAWN_F){
+    public void showValidMoves(boolean isMyMove,ChessPoint[][] qzs, ChessPoint fromPoint) {
+        if(isMyMove){
             changeStatus(qzs,fromPoint,fromPoint.x,fromPoint.y-1);//前进一步
             changeStatus(qzs,fromPoint,fromPoint.x-1,fromPoint.y-1);//吃子
             changeStatus(qzs,fromPoint,fromPoint.x+1,fromPoint.y-1);//吃子
-            if(fromPoint.f()== ChessUtil.M_PAWN_F){
+            if(fromPoint.isFirstMove()){
                 changeStatus(qzs,fromPoint,fromPoint.x,fromPoint.y-2);//前进2步
             }
             return;
@@ -24,7 +24,7 @@ public class PawnGenerator extends BaseGenerator{
         changeStatus(qzs,fromPoint,fromPoint.x,fromPoint.y+1);//前进一步
         changeStatus(qzs,fromPoint,fromPoint.x-1,fromPoint.y+1);//吃子
         changeStatus(qzs,fromPoint,fromPoint.x+1,fromPoint.y+1);//吃子
-        if(fromPoint.f()== ChessUtil.O_PAWN_F){
+        if(fromPoint.isFirstMove()){
             changeStatus(qzs,fromPoint,fromPoint.x,fromPoint.y+2);//前进2步
         }
     }

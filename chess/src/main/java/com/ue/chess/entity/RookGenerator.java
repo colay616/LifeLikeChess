@@ -8,7 +8,7 @@ package com.ue.chess.entity;
 // 除王车易位外不能越子。
 public class RookGenerator extends BaseGenerator{
     @Override
-    public void showValidMoves(ChessPoint[][] qzs, ChessPoint fromPoint) {
+    public void showValidMoves(boolean isMyMove,ChessPoint[][] qzs, ChessPoint fromPoint) {
         boolean isFEnabled=true,isBEnabled=true,isLEnabled=true,isREnabled=true;
         for(int i=1;i<8;i++){
             if(isFEnabled){//前
