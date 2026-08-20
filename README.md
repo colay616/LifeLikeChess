@@ -1,3 +1,5 @@
+
+
 # LifeLikeChess
 
 ###关于
@@ -9,7 +11,7 @@
 由于项目本身是一个游戏合集，所以采用了业务组件化的思想，将每个游戏作为一个独立的组件module，降低项目的耦合度，方便单个游戏的编译调试。
 
 ###缺陷
-部分游戏还没有实现人机模式/在线模式/双人模式。
+部分游戏还没有实现人机模式/在线模式/双人模式/邀请模式。
 
 ###Demo下载
 [应用宝：http://183.61.62.150/imtt.dd.qq.com/16891/08C0C6AF646B91612D968CEC8335E4F3.apk?mkey=58951da1f47da582&f=6920&c=0&fsname=com.ue.chess_life_2.5.2_12.apk&csr=4d5s&p=.apk](http://183.61.62.150/imtt.dd.qq.com/16891/08C0C6AF646B91612D968CEC8335E4F3.apk?mkey=58951da1f47da582&f=6920&c=0&fsname=com.ue.chess_life_2.5.2_12.apk&csr=4d5s&p=.apk)
